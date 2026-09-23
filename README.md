@@ -30,3 +30,5 @@ For a potentially faster and cheaper non-reasoning model, try `$env:OPENAI_MODEL
 Ask `Say hello in one sentence.` for a prompt that should not need DeepWiki. Then ask `Using DeepWiki, what does the langchain-ai/langchain repository say about agents?` to observe an MCP call. The model makes the tool decision, so a particular call is not guaranteed unless you explicitly request it. Type `/quit` to exit. Chat history lasts for the current run only.
 
 DeepWiki endpoint: <https://mcp.deepwiki.com/mcp>. It requires no DeepWiki key, but each model request uses your OpenAI API credits. If the endpoint is unavailable, the app reports a connection error.
+
+This starter project is also a handy place to test a simple Git workflow.
