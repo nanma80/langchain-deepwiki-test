@@ -7,7 +7,8 @@ An interactive terminal agent using OpenAI `gpt-5-mini` and the three public Dee
 In PowerShell:
 
 ```powershell
-cd 'C:\Users\ma_na\Documents\JobHunting2026\ai_playground\langchain'
+git clone https://github.com/nanma80/langchain-deepwiki-test.git
+cd langchain-deepwiki-test
 .\setup.ps1
 ```
 
